@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "790178730226",
+    "project_id": "meitar-code-quiz",
+    "storage_bucket": "meitar-code-quiz.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790178730226:android:bae72163c39c3bc2de806b",
+        "android_client_info": {
+          "package_name": "com.example.code_quiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP95S4gfY4gCyE1SEGhkICeYeYLaQR56M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

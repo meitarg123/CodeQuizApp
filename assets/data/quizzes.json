@@ -1,0 +1,39 @@
+[
+  {
+    "title": "OOP",
+    "subtitle": "Object Oriented Programming",
+    "questions": [
+      {
+        "text": "What is encapsulation?",
+        "options": ["Hiding data", "Inheritance", "Polymorphism", "Abstraction"],
+        "correctIndex": 0,
+        "explanation": "Encapsulation is the bundling of data with the methods that operate on that data.",
+        "completed": false
+      },
+      {
+        "text": "What is inheritance?",
+        "options": ["Reusing code", "Hiding data", "Polymorphism", "Abstraction"],
+        "correctIndex": 0,
+        "completed": false
+      }
+    ]
+  },
+  {
+    "title": "Web",
+    "subtitle": "HTML, CSS, JavaScript",
+    "questions": [
+      {
+        "text": "What does HTML stand for?",
+        "options": ["HyperText Markup Language", "HighText Markup Language", "HyperText Markdown Language", "HighText Markdown Language"],
+        "correctIndex": 0,
+        "completed": false
+      },
+      {
+        "text": "What is CSS used for?",
+        "options": ["Styling web pages", "Structuring web pages", "Scripting web pages", "None of the above"],
+        "correctIndex": 0,
+        "completed": false
+      }
+    ]
+  }
+]
