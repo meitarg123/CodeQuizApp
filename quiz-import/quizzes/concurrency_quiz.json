@@ -1,0 +1,148 @@
+{
+  "title": "Concurrency",
+  "subtitle": "Quiz on Concurrency and Multithreading",
+  "difficulty": "medium",
+  "isPublished": true,
+  "questions": [
+    {
+      "text": "What is a race condition?",
+      "options": ["A performance benchmark", "An error caused by unsynchronized access to shared data", "A process scheduling algorithm", "A compiler optimization"],
+      "correctIndex": 1,
+      "Explanation": "Race conditions occur when two or more threads access shared data without proper synchronization.",
+      "completed": false
+    },
+    {
+      "text": "Which keyword in Java is used to prevent race conditions?",
+      "options": ["atomic", "volatile", "synchronized", "threadsafe"],
+      "correctIndex": 2,
+      "Explanation": "'synchronized' ensures mutual exclusion when accessing shared resources.",
+      "completed": false
+    },
+    {
+      "text": "What is deadlock?",
+      "options": ["Threads running infinitely", "Threads waiting forever for each other", "A syntax error", "A compiler crash"],
+      "correctIndex": 1,
+      "Explanation": "Deadlock occurs when two or more threads wait indefinitely for resources held by each other.",
+      "completed": false
+    },
+    {
+      "text": "Which of the following is NOT a method of the Thread class in Java?",
+      "options": ["start()", "run()", "sleep()", "execute()"],
+      "correctIndex": 3,
+      "Explanation": "execute() is from ExecutorService, not Thread.",
+      "completed": false
+    },
+    {
+      "text": "What is a semaphore used for?",
+      "options": ["Memory allocation", "Thread synchronization", "Process scheduling", "Garbage collection"],
+      "correctIndex": 1,
+      "Explanation": "Semaphores control access to a resource by multiple threads.",
+      "completed": false
+    },
+    {
+      "text": "What does the term 'context switch' mean?",
+      "options": ["Switching between files", "Switching the CPU from one process/thread to another", "Switching from user mode to kernel mode", "Swapping memory pages"],
+      "correctIndex": 1,
+      "Explanation": "A context switch saves and restores CPU state to switch execution between processes or threads.",
+      "completed": false
+    },
+    {
+      "text": "Which scheduling algorithm gives priority to the process with the shortest burst time?",
+      "options": ["Round Robin", "FCFS", "SJF", "Priority Scheduling"],
+      "correctIndex": 2,
+      "Explanation": "Shortest Job First (SJF) executes the shortest burst time first.",
+      "completed": false
+    },
+    {
+      "text": "Which concurrency problem occurs when two threads wait on each other to release resources?",
+      "options": ["Starvation", "Deadlock", "Race condition", "Livelock"],
+      "correctIndex": 1,
+      "Explanation": "This is the definition of deadlock.",
+      "completed": false
+    },
+    {
+      "text": "What is the default scheduling policy in most operating systems?",
+      "options": ["Priority Scheduling", "Round Robin", "First Come First Serve", "Shortest Job First"],
+      "correctIndex": 1,
+      "Explanation": "Round Robin is the most common scheduling policy for time-sharing systems.",
+      "completed": false
+    },
+    {
+      "text": "What is starvation in concurrency?",
+      "options": ["A process never gets CPU time", "Too many processes are scheduled", "A process finishes early", "The system runs out of memory"],
+      "correctIndex": 0,
+      "Explanation": "Starvation happens when a process waits indefinitely for resources.",
+      "completed": false
+    },
+    {
+      "text": "Which mechanism prevents multiple threads from entering a critical section simultaneously?",
+      "options": ["Garbage collection", "Paging", "Mutual exclusion (mutex)", "Scheduling"],
+      "correctIndex": 2,
+      "Explanation": "Mutexes enforce mutual exclusion in critical sections.",
+      "completed": false
+    },
+    {
+      "text": "What is a livelock?",
+      "options": ["Threads are blocked permanently", "Threads change state but make no progress", "Threads execute sequentially", "A compiler bug"],
+      "correctIndex": 1,
+      "Explanation": "In livelock, threads keep changing state but do not make progress.",
+      "completed": false
+    },
+    {
+      "text": "Which function is commonly used in POSIX to create a new thread?",
+      "options": ["pthread_create", "thread_spawn", "new_thread", "fork"],
+      "correctIndex": 0,
+      "Explanation": "pthread_create creates a new thread in POSIX systems.",
+      "completed": false
+    },
+    {
+      "text": "What does the term 'critical section' refer to?",
+      "options": ["The main function", "A block of code accessing shared resources", "The CPU cache", "Memory swap area"],
+      "correctIndex": 1,
+      "Explanation": "Critical sections are code blocks where shared resources are accessed.",
+      "completed": false
+    },
+    {
+      "text": "Which Java interface is used for asynchronous task execution?",
+      "options": ["Runnable", "Callable", "Future", "ExecutorService"],
+      "correctIndex": 3,
+      "Explanation": "ExecutorService manages asynchronous task execution.",
+      "completed": false
+    },
+    {
+      "text": "Which method makes a thread pause execution for a given time?",
+      "options": ["stop()", "wait()", "sleep()", "pause()"],
+      "correctIndex": 2,
+      "Explanation": "sleep() pauses a thread for a specified time.",
+      "completed": false
+    },
+    {
+      "text": "Which statement is true about deadlocks?",
+      "options": ["Deadlocks can always be avoided", "Deadlocks can sometimes be prevented", "Deadlocks are impossible in multithreading", "Deadlocks are syntax errors"],
+      "correctIndex": 1,
+      "Explanation": "Deadlocks can sometimes be prevented with careful design.",
+      "completed": false
+    },
+    {
+      "text": "Which concurrency issue occurs if thread priorities cause lower priority threads to starve?",
+      "options": ["Deadlock", "Starvation", "Race condition", "Context switch"],
+      "correctIndex": 1,
+      "Explanation": "Starvation happens when low-priority threads never get scheduled.",
+      "completed": false
+    },
+    {
+      "text": "What is the purpose of join() in threading?",
+      "options": ["To merge two processes", "To make one thread wait for another to finish", "To synchronize threads permanently", "To release locks"],
+      "correctIndex": 1,
+      "Explanation": "join() makes the current thread wait until another thread finishes execution.",
+      "completed": false
+    },
+    {
+      "text": "Which problem is solved by using condition variables?",
+      "options": ["Deadlock", "Race conditions", "Thread communication", "Memory leaks"],
+      "correctIndex": 2,
+      "Explanation": "Condition variables allow threads to wait and signal each other.",
+      "completed": false
+    }
+  ]
+}

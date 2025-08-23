@@ -1,0 +1,148 @@
+{
+  "title": "PHP",
+  "subtitle": "Quiz on PHP basics",
+  "difficulty": "easy",
+  "isPublished": true,
+  "questions": [
+    {
+      "text": "Which symbol is used to declare variables in PHP?",
+      "options": ["#", "$", "%", "&"],
+      "correctIndex": 1,
+      "Explanation": "PHP variables are prefixed with $.",
+      "completed": false
+    },
+    {
+      "text": "Which function is used to output text in PHP?",
+      "options": ["print()", "echo", "console.log()", "printf()"],
+      "correctIndex": 1,
+      "Explanation": "echo outputs text in PHP.",
+      "completed": false
+    },
+    {
+      "text": "Which superglobal is used to access form data sent via GET?",
+      "options": ["$_FORM", "$_POST", "$_GET", "$_REQUEST"],
+      "correctIndex": 2,
+      "Explanation": "$_GET contains form data sent via the HTTP GET method.",
+      "completed": false
+    },
+    {
+      "text": "Which operator is used for string concatenation in PHP?",
+      "options": ["+", "&", ".", "concat"],
+      "correctIndex": 2,
+      "Explanation": "The dot (.) is used for string concatenation in PHP.",
+      "completed": false
+    },
+    {
+      "text": "Which keyword is used to define a function in PHP?",
+      "options": ["func", "function", "def", "lambda"],
+      "correctIndex": 1,
+      "Explanation": "PHP functions are defined with the 'function' keyword.",
+      "completed": false
+    },
+    {
+      "text": "Which of the following is NOT a valid PHP data type?",
+      "options": ["String", "Integer", "Boolean", "Character"],
+      "correctIndex": 3,
+      "Explanation": "PHP does not have a separate Character type.",
+      "completed": false
+    },
+    {
+      "text": "Which keyword is used to include files in PHP?",
+      "options": ["import", "require", "include", "Both include and require"],
+      "correctIndex": 3,
+      "Explanation": "PHP supports both include and require.",
+      "completed": false
+    },
+    {
+      "text": "Which PHP function returns the length of a string?",
+      "options": ["len()", "strlen()", "count()", "size()"],
+      "correctIndex": 1,
+      "Explanation": "strlen() returns the length of a string.",
+      "completed": false
+    },
+    {
+      "text": "Which function is used to connect to a MySQL database in modern PHP?",
+      "options": ["mysql_connect()", "mysqli_connect()", "db_connect()", "pdo_connect()"],
+      "correctIndex": 1,
+      "Explanation": "mysqli_connect() is the improved way to connect to MySQL.",
+      "completed": false
+    },
+    {
+      "text": "Which operator is used to check equality in PHP?",
+      "options": ["==", "===", "equals()", "="],
+      "correctIndex": 0,
+      "Explanation": "== checks value equality, === checks value and type.",
+      "completed": false
+    },
+    {
+      "text": "What will echo 5 . '5'; output?",
+      "options": ["10", "'55'", "Error", "NaN"],
+      "correctIndex": 1,
+      "Explanation": "The dot operator concatenates → 5 . '5' = '55'.",
+      "completed": false
+    },
+    {
+      "text": "Which superglobal contains session variables?",
+      "options": ["$_SESSION", "$_GLOBAL", "$_SERVER", "$_POST"],
+      "correctIndex": 0,
+      "Explanation": "$_SESSION stores session variables.",
+      "completed": false
+    },
+    {
+      "text": "Which PHP keyword is used to define a class?",
+      "options": ["object", "class", "define", "new"],
+      "correctIndex": 1,
+      "Explanation": "Classes in PHP are defined with the 'class' keyword.",
+      "completed": false
+    },
+    {
+      "text": "Which keyword is used to inherit a class in PHP?",
+      "options": ["extends", "inherits", "super", "base"],
+      "correctIndex": 0,
+      "Explanation": "PHP uses 'extends' to inherit classes.",
+      "completed": false
+    },
+    {
+      "text": "Which keyword is used to implement an interface in PHP?",
+      "options": ["implements", "extends", "uses", "interface"],
+      "correctIndex": 0,
+      "Explanation": "PHP uses 'implements' for interfaces.",
+      "completed": false
+    },
+    {
+      "text": "Which function is used to check if a variable is set?",
+      "options": ["isset()", "empty()", "defined()", "var_exists()"],
+      "correctIndex": 0,
+      "Explanation": "isset() checks if a variable is set and not NULL.",
+      "completed": false
+    },
+    {
+      "text": "Which function is used to check if a variable is empty?",
+      "options": ["isset()", "empty()", "defined()", "var_exists()"],
+      "correctIndex": 1,
+      "Explanation": "empty() checks if a variable is empty or zero.",
+      "completed": false
+    },
+    {
+      "text": "Which function is used to destroy a session in PHP?",
+      "options": ["session_destroy()", "end_session()", "unset()", "session_stop()"],
+      "correctIndex": 0,
+      "Explanation": "session_destroy() is used to destroy a session.",
+      "completed": false
+    },
+    {
+      "text": "Which PHP function is used to output information about a variable?",
+      "options": ["info()", "print_r()", "dump()", "echo_var()"],
+      "correctIndex": 1,
+      "Explanation": "print_r() displays human-readable information about a variable.",
+      "completed": false
+    },
+    {
+      "text": "Which tag is used to start PHP code?",
+      "options": ["<php>", "<?php", "<?", "<script php>"],
+      "correctIndex": 1,
+      "Explanation": "PHP code starts with <?php.",
+      "completed": false
+    }
+  ]
+}

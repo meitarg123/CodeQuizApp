@@ -1,0 +1,148 @@
+{
+  "title": "OOP",
+  "subtitle": "Quiz on Object-Oriented Programming",
+  "difficulty": "easy",
+  "isPublished": true,
+  "questions": [
+    {
+      "text": "Which of the following is NOT one of the four pillars of OOP?",
+      "options": ["Encapsulation", "Polymorphism", "Inheritance", "Compilation"],
+      "correctIndex": 3,
+      "Explanation": "The four pillars are Encapsulation, Inheritance, Polymorphism, and Abstraction.",
+      "completed": false
+    },
+    {
+      "text": "What is the main purpose of encapsulation?",
+      "options": ["To hide implementation details", "To speed up execution", "To allow multiple inheritance", "To reduce memory"],
+      "correctIndex": 0,
+      "Explanation": "Encapsulation hides internal state and exposes only what is necessary.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP concept allows creating multiple methods with the same name?",
+      "options": ["Overriding", "Overloading", "Abstraction", "Encapsulation"],
+      "correctIndex": 1,
+      "Explanation": "Method overloading allows methods with the same name but different parameters.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP concept allows a subclass to provide its own implementation of a method?",
+      "options": ["Encapsulation", "Overriding", "Polymorphism", "Abstraction"],
+      "correctIndex": 1,
+      "Explanation": "Method overriding allows subclasses to redefine methods.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP principle focuses on defining 'what' rather than 'how'?",
+      "options": ["Polymorphism", "Encapsulation", "Abstraction", "Inheritance"],
+      "correctIndex": 2,
+      "Explanation": "Abstraction hides implementation details and focuses on behavior.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP principle allows objects of different classes to be treated as the same type?",
+      "options": ["Inheritance", "Polymorphism", "Encapsulation", "Abstraction"],
+      "correctIndex": 1,
+      "Explanation": "Polymorphism allows treating different classes with a common interface the same way.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP feature allows a class to inherit properties from another class?",
+      "options": ["Encapsulation", "Polymorphism", "Abstraction", "Inheritance"],
+      "correctIndex": 3,
+      "Explanation": "Inheritance allows code reuse and hierarchy building.",
+      "completed": false
+    },
+    {
+      "text": "Which keyword is used to create a class in Java or Python?",
+      "options": ["object", "define", "class", "new"],
+      "correctIndex": 2,
+      "Explanation": "Classes are defined with the 'class' keyword.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP principle is demonstrated by hiding fields and making them accessible via getters/setters?",
+      "options": ["Abstraction", "Polymorphism", "Encapsulation", "Inheritance"],
+      "correctIndex": 2,
+      "Explanation": "Encapsulation provides controlled access to fields.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP concept allows the same method name to perform different tasks?",
+      "options": ["Overriding", "Polymorphism", "Abstraction", "Inheritance"],
+      "correctIndex": 1,
+      "Explanation": "Polymorphism allows the same method to behave differently.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP concept reduces code duplication by reusing code from base classes?",
+      "options": ["Polymorphism", "Inheritance", "Encapsulation", "Abstraction"],
+      "correctIndex": 1,
+      "Explanation": "Inheritance allows reusing functionality from parent classes.",
+      "completed": false
+    },
+    {
+      "text": "What is multiple inheritance?",
+      "options": ["A class inherits from two or more classes", "A method has multiple names", "Two objects share memory", "An object has many states"],
+      "correctIndex": 0,
+      "Explanation": "Multiple inheritance allows a class to inherit from multiple classes.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP concept ensures that details are hidden from the user?",
+      "options": ["Polymorphism", "Encapsulation", "Abstraction", "Inheritance"],
+      "correctIndex": 2,
+      "Explanation": "Abstraction hides internal details and shows only essentials.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP concept models real-world objects with attributes and behavior?",
+      "options": ["Inheritance", "Encapsulation", "Class", "Polymorphism"],
+      "correctIndex": 2,
+      "Explanation": "A class models real-world entities with properties and methods.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP concept is used when one class takes on the properties of another?",
+      "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+      "correctIndex": 1,
+      "Explanation": "Inheritance allows sharing of properties and behaviors.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP concept ensures a subclass can override methods from a parent class?",
+      "options": ["Encapsulation", "Polymorphism", "Overriding", "Abstraction"],
+      "correctIndex": 2,
+      "Explanation": "Overriding is when subclass methods replace parent methods.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP concept allows defining interfaces with no implementation?",
+      "options": ["Abstract class", "Encapsulation", "Polymorphism", "Inheritance"],
+      "correctIndex": 0,
+      "Explanation": "Abstract classes define method signatures without implementations.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP principle makes classes easier to maintain by grouping related code?",
+      "options": ["Encapsulation", "Polymorphism", "Inheritance", "Abstraction"],
+      "correctIndex": 0,
+      "Explanation": "Encapsulation groups data and methods together.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP principle allows code to call the same method on different objects?",
+      "options": ["Encapsulation", "Abstraction", "Inheritance", "Polymorphism"],
+      "correctIndex": 3,
+      "Explanation": "Polymorphism allows one interface to be used for different data types.",
+      "completed": false
+    },
+    {
+      "text": "Which OOP concept defines a blueprint for creating objects?",
+      "options": ["Interface", "Class", "Method", "Object"],
+      "correctIndex": 1,
+      "Explanation": "A class is a blueprint for creating objects.",
+      "completed": false
+    }
+  ]
+}

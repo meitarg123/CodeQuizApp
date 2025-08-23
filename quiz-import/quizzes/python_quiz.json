@@ -1,0 +1,148 @@
+{
+  "title": "Python",
+  "subtitle": "Quiz on Python basics",
+  "difficulty": "easy",
+  "isPublished": true,
+  "questions": [
+    {
+      "text": "What is the output of type([]) in Python?",
+      "options": ["list", "tuple", "dict", "set"],
+      "correctIndex": 0,
+      "Explanation": "An empty [] in Python creates a list.",
+      "completed": false
+    },
+    {
+      "text": "Which keyword is used to define a function in Python?",
+      "options": ["func", "function", "def", "lambda"],
+      "correctIndex": 2,
+      "Explanation": "Functions in Python are defined using the 'def' keyword.",
+      "completed": false
+    },
+    {
+      "text": "What is the output of 3 * 'ab'?",
+      "options": ["'ab3'", "'ababab'", "'3ab'", "Error"],
+      "correctIndex": 1,
+      "Explanation": "The string 'ab' is repeated 3 times → 'ababab'.",
+      "completed": false
+    },
+    {
+      "text": "Which of the following is immutable in Python?",
+      "options": ["list", "set", "tuple", "dict"],
+      "correctIndex": 2,
+      "Explanation": "Tuples are immutable in Python.",
+      "completed": false
+    },
+    {
+      "text": "What does the len() function return?",
+      "options": ["The size of memory", "The number of elements", "The last element", "The index of an element"],
+      "correctIndex": 1,
+      "Explanation": "len() returns the number of items in an object.",
+      "completed": false
+    },
+    {
+      "text": "Which operator is used for floor division in Python?",
+      "options": ["/", "//", "%", "**"],
+      "correctIndex": 1,
+      "Explanation": "'//' performs floor division in Python.",
+      "completed": false
+    },
+    {
+      "text": "What is the output of bool('False')?",
+      "options": ["False", "True", "Error", "None"],
+      "correctIndex": 1,
+      "Explanation": "Any non-empty string is True in Python, even 'False'.",
+      "completed": false
+    },
+    {
+      "text": "Which keyword is used to handle exceptions in Python?",
+      "options": ["catch", "except", "throw", "error"],
+      "correctIndex": 1,
+      "Explanation": "Python uses try/except for exception handling.",
+      "completed": false
+    },
+    {
+      "text": "Which built-in data type is an unordered collection of unique elements?",
+      "options": ["list", "tuple", "set", "dict"],
+      "correctIndex": 2,
+      "Explanation": "Sets are unordered collections of unique elements.",
+      "completed": false
+    },
+    {
+      "text": "What is the default return value of a function that does not explicitly return?",
+      "options": ["0", "None", "Empty string", "False"],
+      "correctIndex": 1,
+      "Explanation": "Functions without a return statement return None.",
+      "completed": false
+    },
+    {
+      "text": "Which of the following is a Python logical operator?",
+      "options": ["&&", "||", "and", "&"],
+      "correctIndex": 2,
+      "Explanation": "Python uses 'and', 'or', 'not' for logical operations.",
+      "completed": false
+    },
+    {
+      "text": "Which method adds an element at the end of a list?",
+      "options": ["append()", "add()", "insert()", "push()"],
+      "correctIndex": 0,
+      "Explanation": "append() adds a single element to the end of a list.",
+      "completed": false
+    },
+    {
+      "text": "What is the output of 'hello'.upper()?",
+      "options": ["HELLO", "hello", "Hello", "Error"],
+      "correctIndex": 0,
+      "Explanation": "The upper() method converts all letters to uppercase.",
+      "completed": false
+    },
+    {
+      "text": "Which statement is used to create a loop that iterates a fixed number of times?",
+      "options": ["for", "while", "loop", "iterate"],
+      "correctIndex": 0,
+      "Explanation": "Python 'for' loops are commonly used with range().",
+      "completed": false
+    },
+    {
+      "text": "Which keyword is used to define a class in Python?",
+      "options": ["object", "class", "define", "new"],
+      "correctIndex": 1,
+      "Explanation": "Python classes are defined with the 'class' keyword.",
+      "completed": false
+    },
+    {
+      "text": "What is the output of 2 ** 3?",
+      "options": ["6", "8", "9", "Error"],
+      "correctIndex": 1,
+      "Explanation": "The operator ** is exponentiation → 2**3 = 8.",
+      "completed": false
+    },
+    {
+      "text": "Which built-in function converts a string to an integer?",
+      "options": ["str()", "int()", "float()", "eval()"],
+      "correctIndex": 1,
+      "Explanation": "int('123') returns 123.",
+      "completed": false
+    },
+    {
+      "text": "Which statement is used to exit a loop prematurely?",
+      "options": ["continue", "exit", "break", "stop"],
+      "correctIndex": 2,
+      "Explanation": "break exits the loop immediately.",
+      "completed": false
+    },
+    {
+      "text": "Which function returns the largest item in an iterable?",
+      "options": ["max()", "min()", "largest()", "sum()"],
+      "correctIndex": 0,
+      "Explanation": "max() returns the maximum value.",
+      "completed": false
+    },
+    {
+      "text": "Which keyword creates an anonymous function?",
+      "options": ["lambda", "def", "func", "anonymous"],
+      "correctIndex": 0,
+      "Explanation": "lambda is used to create small anonymous functions.",
+      "completed": false
+    }
+  ]
+}
