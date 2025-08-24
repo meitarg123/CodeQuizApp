@@ -2,6 +2,7 @@ import 'package:code_quiz/screens/start_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'widgets/auth_gate.dart'; 
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -39,7 +40,7 @@ class CodeQuizApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightBlue),
         useMaterial3: true,
       ),
-      home: StartScreen(),
+      home: AuthGate(child: StartScreen()),
     );
   }
 }

@@ -32,12 +32,6 @@ class StartScreen extends StatelessWidget {
             ),
 
             SizedBox(height: 12),
-            ElevatedButton(
-              onPressed: () {
-                // todo:login
-              },
-              child: Text('Login'),
-            ),
           ],
         ),
       ),

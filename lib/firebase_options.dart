@@ -85,4 +85,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'meitar-code-quiz.firebasestorage.app',
     measurementId: 'G-J98DN87Q9G',
   );
+
 }
