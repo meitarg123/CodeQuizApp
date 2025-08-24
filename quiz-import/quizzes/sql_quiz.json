@@ -8,140 +8,140 @@
       "text": "Which SQL keyword is used to retrieve data from a database?",
       "options": ["GET", "SELECT", "FETCH", "EXTRACT"],
       "correctIndex": 1,
-      "Explanation": "SELECT is used to query data from a database.",
+      "explanation": "SELECT is used to query data from a database.",
       "completed": false
     },
     {
       "text": "Which SQL clause is used to filter records?",
       "options": ["WHERE", "GROUP BY", "ORDER BY", "HAVING"],
       "correctIndex": 0,
-      "Explanation": "WHERE filters rows before grouping or ordering.",
+      "explanation": "WHERE filters rows before grouping or ordering.",
       "completed": false
     },
     {
       "text": "Which SQL clause is used to sort the result set?",
       "options": ["ORDER BY", "SORT BY", "GROUP BY", "RANK"],
       "correctIndex": 0,
-      "Explanation": "ORDER BY is used to sort results ascending or descending.",
+      "explanation": "ORDER BY is used to sort results ascending or descending.",
       "completed": false
     },
     {
       "text": "Which SQL statement is used to add new rows?",
       "options": ["APPEND", "INSERT", "ADD", "UPDATE"],
       "correctIndex": 1,
-      "Explanation": "INSERT is used to add new records to a table.",
+      "explanation": "INSERT is used to add new records to a table.",
       "completed": false
     },
     {
       "text": "Which SQL keyword removes duplicate records?",
       "options": ["UNIQUE", "DISTINCT", "REMOVE DUP", "ONLY"],
       "correctIndex": 1,
-      "Explanation": "DISTINCT returns only unique values.",
+      "explanation": "DISTINCT returns only unique values.",
       "completed": false
     },
     {
       "text": "Which SQL aggregate function counts rows?",
       "options": ["TOTAL()", "COUNT()", "SUM()", "ROWNUM()"],
       "correctIndex": 1,
-      "Explanation": "COUNT() returns the number of rows.",
+      "explanation": "COUNT() returns the number of rows.",
       "completed": false
     },
     {
       "text": "Which SQL keyword combines results of two queries?",
       "options": ["JOIN", "UNION", "MERGE", "INTERSECT"],
       "correctIndex": 1,
-      "Explanation": "UNION combines results of two SELECT statements.",
+      "explanation": "UNION combines results of two SELECT statements.",
       "completed": false
     },
     {
       "text": "Which SQL join returns all rows from the left table and matched rows from the right?",
       "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],
       "correctIndex": 1,
-      "Explanation": "LEFT JOIN returns all left rows, and matching right rows.",
+      "explanation": "LEFT JOIN returns all left rows, and matching right rows.",
       "completed": false
     },
     {
       "text": "Which SQL command is used to change data in a table?",
       "options": ["CHANGE", "MODIFY", "UPDATE", "ALTER"],
       "correctIndex": 2,
-      "Explanation": "UPDATE changes existing records in a table.",
+      "explanation": "UPDATE changes existing records in a table.",
       "completed": false
     },
     {
       "text": "Which SQL keyword is used to delete all rows from a table?",
       "options": ["REMOVE", "TRUNCATE", "DELETE ALL", "DROP"],
       "correctIndex": 1,
-      "Explanation": "TRUNCATE removes all rows but keeps the structure.",
+      "explanation": "TRUNCATE removes all rows but keeps the structure.",
       "completed": false
     },
     {
       "text": "Which SQL command removes a table completely?",
       "options": ["REMOVE", "TRUNCATE", "DELETE", "DROP"],
       "correctIndex": 3,
-      "Explanation": "DROP deletes the table and its data permanently.",
+      "explanation": "DROP deletes the table and its data permanently.",
       "completed": false
     },
     {
       "text": "Which SQL constraint ensures unique values in a column?",
       "options": ["PRIMARY KEY", "FOREIGN KEY", "UNIQUE", "CHECK"],
       "correctIndex": 2,
-      "Explanation": "UNIQUE ensures all values in a column are different.",
+      "explanation": "UNIQUE ensures all values in a column are different.",
       "completed": false
     },
     {
       "text": "Which SQL keyword groups rows by column values?",
       "options": ["GROUP", "ORDER", "GROUP BY", "COLLECT"],
       "correctIndex": 2,
-      "Explanation": "GROUP BY groups rows that share values.",
+      "explanation": "GROUP BY groups rows that share values.",
       "completed": false
     },
     {
       "text": "Which SQL clause is used with GROUP BY to filter groups?",
       "options": ["WHERE", "HAVING", "FILTER", "CHECK"],
       "correctIndex": 1,
-      "Explanation": "HAVING filters groups after aggregation.",
+      "explanation": "HAVING filters groups after aggregation.",
       "completed": false
     },
     {
       "text": "Which SQL keyword checks for missing values?",
       "options": ["IS EMPTY", "IS NULL", "IS MISSING", "IS VOID"],
       "correctIndex": 1,
-      "Explanation": "IS NULL is used to test for NULL values.",
+      "explanation": "IS NULL is used to test for NULL values.",
       "completed": false
     },
     {
       "text": "Which SQL function returns the average value?",
       "options": ["SUM()", "AVG()", "MEAN()", "AVERAGE()"],
       "correctIndex": 1,
-      "Explanation": "AVG() calculates the mean value of a column.",
+      "explanation": "AVG() calculates the mean value of a column.",
       "completed": false
     },
     {
       "text": "Which SQL command creates a new table?",
       "options": ["MAKE TABLE", "NEW TABLE", "CREATE TABLE", "TABLE CREATE"],
       "correctIndex": 2,
-      "Explanation": "CREATE TABLE defines a new table and its columns.",
+      "explanation": "CREATE TABLE defines a new table and its columns.",
       "completed": false
     },
     {
       "text": "Which SQL command is used to add a column?",
       "options": ["ALTER TABLE ... ADD", "APPEND COLUMN", "INSERT COLUMN", "NEW COLUMN"],
       "correctIndex": 0,
-      "Explanation": "ALTER TABLE ADD is used to add a column.",
+      "explanation": "ALTER TABLE ADD is used to add a column.",
       "completed": false
     },
     {
       "text": "Which SQL command adds an index to a table?",
       "options": ["INDEX", "NEW INDEX", "CREATE INDEX", "ADD INDEX"],
       "correctIndex": 2,
-      "Explanation": "CREATE INDEX improves search performance.",
+      "explanation": "CREATE INDEX improves search performance.",
       "completed": false
     },
     {
       "text": "Which SQL keyword is used to return only rows that satisfy both queries?",
       "options": ["UNION", "INTERSECT", "JOIN", "ALL"],
       "correctIndex": 1,
-      "Explanation": "INTERSECT returns rows common to both queries.",
+      "explanation": "INTERSECT returns rows common to both queries.",
       "completed": false
     }
   ]

@@ -8,140 +8,140 @@
       "text": "Which HTTP method is used to retrieve data from a server?",
       "options": ["GET", "POST", "PUT", "DELETE"],
       "correctIndex": 0,
-      "Explanation": "GET is used to request data from a server.",
+      "explanation": "GET is used to request data from a server.",
       "completed": false
     },
     {
       "text": "Which HTTP method is typically used to submit form data?",
       "options": ["GET", "POST", "PUT", "PATCH"],
       "correctIndex": 1,
-      "Explanation": "POST is used to send data to a server, such as form submissions.",
+      "explanation": "POST is used to send data to a server, such as form submissions.",
       "completed": false
     },
     {
       "text": "Which HTTP method is idempotent, meaning multiple identical requests have the same effect?",
       "options": ["POST", "GET", "PUT", "PATCH"],
       "correctIndex": 2,
-      "Explanation": "PUT is idempotent, replacing the same resource each time.",
+      "explanation": "PUT is idempotent, replacing the same resource each time.",
       "completed": false
     },
     {
       "text": "Which HTTP status code means 'Not Found'?",
       "options": ["200", "301", "404", "500"],
       "correctIndex": 2,
-      "Explanation": "404 indicates the requested resource could not be found.",
+      "explanation": "404 indicates the requested resource could not be found.",
       "completed": false
     },
     {
       "text": "Which HTTP header is used to specify the format of the body being sent?",
       "options": ["Authorization", "Content-Type", "Accept", "User-Agent"],
       "correctIndex": 1,
-      "Explanation": "Content-Type specifies the media type (e.g., application/json).",
+      "explanation": "Content-Type specifies the media type (e.g., application/json).",
       "completed": false
     },
     {
       "text": "Which header indicates the type of response the client can accept?",
       "options": ["Accept", "Content-Type", "Cache-Control", "Allow"],
       "correctIndex": 0,
-      "Explanation": "Accept tells the server which media types the client can handle.",
+      "explanation": "Accept tells the server which media types the client can handle.",
       "completed": false
     },
     {
       "text": "Which protocol is used to secure HTTP traffic?",
       "options": ["FTP", "HTTPS", "SSL", "TLS"],
       "correctIndex": 1,
-      "Explanation": "HTTPS is HTTP over SSL/TLS.",
+      "explanation": "HTTPS is HTTP over SSL/TLS.",
       "completed": false
     },
     {
       "text": "Which status code indicates a successful request?",
       "options": ["200", "201", "301", "500"],
       "correctIndex": 0,
-      "Explanation": "200 OK means the request succeeded.",
+      "explanation": "200 OK means the request succeeded.",
       "completed": false
     },
     {
       "text": "Which status code indicates the server encountered an unexpected condition?",
       "options": ["200", "301", "404", "500"],
       "correctIndex": 3,
-      "Explanation": "500 Internal Server Error indicates an unexpected server error.",
+      "explanation": "500 Internal Server Error indicates an unexpected server error.",
       "completed": false
     },
     {
       "text": "Which HTTP method is used to delete a resource?",
       "options": ["REMOVE", "DELETE", "DROP", "PURGE"],
       "correctIndex": 1,
-      "Explanation": "DELETE removes a resource on the server.",
+      "explanation": "DELETE removes a resource on the server.",
       "completed": false
     },
     {
       "text": "Which HTTP method is used to partially update a resource?",
       "options": ["PUT", "PATCH", "UPDATE", "ALTER"],
       "correctIndex": 1,
-      "Explanation": "PATCH applies partial modifications to a resource.",
+      "explanation": "PATCH applies partial modifications to a resource.",
       "completed": false
     },
     {
       "text": "What does the 201 HTTP status code mean?",
       "options": ["OK", "Created", "Accepted", "Partial Content"],
       "correctIndex": 1,
-      "Explanation": "201 Created indicates a new resource has been successfully created.",
+      "explanation": "201 Created indicates a new resource has been successfully created.",
       "completed": false
     },
     {
       "text": "Which HTTP header is used to send authentication credentials?",
       "options": ["Accept", "Authorization", "Cookie", "Credentials"],
       "correctIndex": 1,
-      "Explanation": "Authorization carries credentials such as tokens or Basic auth.",
+      "explanation": "Authorization carries credentials such as tokens or Basic auth.",
       "completed": false
     },
     {
       "text": "Which HTTP status code is returned when a resource has been permanently moved?",
       "options": ["200", "301", "302", "307"],
       "correctIndex": 1,
-      "Explanation": "301 Moved Permanently indicates a resource’s URL has changed permanently.",
+      "explanation": "301 Moved Permanently indicates a resource’s URL has changed permanently.",
       "completed": false
     },
     {
       "text": "What is the default port for HTTP?",
       "options": ["80", "443", "21", "22"],
       "correctIndex": 0,
-      "Explanation": "HTTP uses port 80 by default.",
+      "explanation": "HTTP uses port 80 by default.",
       "completed": false
     },
     {
       "text": "What is the default port for HTTPS?",
       "options": ["80", "443", "21", "22"],
       "correctIndex": 1,
-      "Explanation": "HTTPS uses port 443 by default.",
+      "explanation": "HTTPS uses port 443 by default.",
       "completed": false
     },
     {
       "text": "Which status code indicates the client is not authorized?",
       "options": ["200", "401", "403", "404"],
       "correctIndex": 1,
-      "Explanation": "401 Unauthorized indicates missing or invalid authentication.",
+      "explanation": "401 Unauthorized indicates missing or invalid authentication.",
       "completed": false
     },
     {
       "text": "Which status code means the client is forbidden from accessing a resource?",
       "options": ["200", "401", "403", "404"],
       "correctIndex": 2,
-      "Explanation": "403 Forbidden means the client is authenticated but not allowed access.",
+      "explanation": "403 Forbidden means the client is authenticated but not allowed access.",
       "completed": false
     },
     {
       "text": "Which header is used to store small pieces of stateful information on the client?",
       "options": ["Authorization", "Set-Cookie", "Cache-Control", "Accept"],
       "correctIndex": 1,
-      "Explanation": "Set-Cookie tells the browser to store a cookie.",
+      "explanation": "Set-Cookie tells the browser to store a cookie.",
       "completed": false
     },
     {
       "text": "Which HTTP status code indicates too many requests?",
       "options": ["403", "404", "408", "429"],
       "correctIndex": 3,
-      "Explanation": "429 Too Many Requests is used for rate limiting.",
+      "explanation": "429 Too Many Requests is used for rate limiting.",
       "completed": false
     }
   ]

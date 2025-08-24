@@ -8,140 +8,140 @@
       "text": "Which of the following is NOT a JavaScript data type?",
       "options": ["String", "Boolean", "Float", "Undefined"],
       "correctIndex": 2,
-      "Explanation": "JavaScript has Number, but not a separate Float type.",
+      "explanation": "JavaScript has Number, but not a separate Float type.",
       "completed": false
     },
     {
       "text": "Which symbol is used for single-line comments in JavaScript?",
       "options": ["//", "<!--", "#", "/*"],
       "correctIndex": 0,
-      "Explanation": "Single-line comments in JavaScript use //.",
+      "explanation": "Single-line comments in JavaScript use //.",
       "completed": false
     },
     {
       "text": "What will '2' + 2 evaluate to in JavaScript?",
       "options": ["4", "'22'", "NaN", "Error"],
       "correctIndex": 1,
-      "Explanation": "The + operator concatenates when one operand is a string.",
+      "explanation": "The + operator concatenates when one operand is a string.",
       "completed": false
     },
     {
       "text": "Which keyword is used to declare a constant in JavaScript?",
       "options": ["var", "let", "const", "constant"],
       "correctIndex": 2,
-      "Explanation": "const declares a block-scoped constant variable.",
+      "explanation": "const declares a block-scoped constant variable.",
       "completed": false
     },
     {
       "text": "Which function converts a JSON string into an object?",
       "options": ["JSON.stringify()", "JSON.parse()", "parseJSON()", "eval()"],
       "correctIndex": 1,
-      "Explanation": "JSON.parse() converts JSON string to an object.",
+      "explanation": "JSON.parse() converts JSON string to an object.",
       "completed": false
     },
     {
       "text": "Which keyword is used for asynchronous functions?",
       "options": ["await", "async", "defer", "promise"],
       "correctIndex": 1,
-      "Explanation": "async defines a function as asynchronous.",
+      "explanation": "async defines a function as asynchronous.",
       "completed": false
     },
     {
       "text": "Which operator is used to check both value and type?",
       "options": ["==", "===", "!=", "!=="],
       "correctIndex": 1,
-      "Explanation": "=== checks both value and type.",
+      "explanation": "=== checks both value and type.",
       "completed": false
     },
     {
       "text": "Which method adds an element to the end of an array?",
       "options": ["push()", "pop()", "shift()", "unshift()"],
       "correctIndex": 0,
-      "Explanation": "push() adds one or more elements at the end of an array.",
+      "explanation": "push() adds one or more elements at the end of an array.",
       "completed": false
     },
     {
       "text": "Which method removes the last element of an array?",
       "options": ["push()", "pop()", "shift()", "unshift()"],
       "correctIndex": 1,
-      "Explanation": "pop() removes the last element of an array.",
+      "explanation": "pop() removes the last element of an array.",
       "completed": false
     },
     {
       "text": "Which method joins all elements of an array into a string?",
       "options": ["concat()", "join()", "toString()", "splice()"],
       "correctIndex": 1,
-      "Explanation": "join() concatenates all array elements into a string.",
+      "explanation": "join() concatenates all array elements into a string.",
       "completed": false
     },
     {
       "text": "Which function is used to print messages to the console?",
       "options": ["alert()", "console.log()", "print()", "log()"],
       "correctIndex": 1,
-      "Explanation": "console.log() is used to log messages to the console.",
+      "explanation": "console.log() is used to log messages to the console.",
       "completed": false
     },
     {
       "text": "Which keyword is used to exit a loop?",
       "options": ["stop", "exit", "break", "return"],
       "correctIndex": 2,
-      "Explanation": "break terminates the loop immediately.",
+      "explanation": "break terminates the loop immediately.",
       "completed": false
     },
     {
       "text": "Which function is used to delay execution of code?",
       "options": ["setTimeout()", "setInterval()", "wait()", "delay()"],
       "correctIndex": 0,
-      "Explanation": "setTimeout() delays execution of a function.",
+      "explanation": "setTimeout() delays execution of a function.",
       "completed": false
     },
     {
       "text": "What will typeof NaN return?",
       "options": ["number", "NaN", "undefined", "object"],
       "correctIndex": 0,
-      "Explanation": "NaN is of type number in JavaScript.",
+      "explanation": "NaN is of type number in JavaScript.",
       "completed": false
     },
     {
       "text": "Which operator is used to spread elements of an array?",
       "options": ["...", "++", "--", "**"],
       "correctIndex": 0,
-      "Explanation": "The spread operator ... expands array elements.",
+      "explanation": "The spread operator ... expands array elements.",
       "completed": false
     },
     {
       "text": "Which object represents the global scope in browsers?",
       "options": ["window", "document", "this", "global"],
       "correctIndex": 0,
-      "Explanation": "window is the global scope object in browsers.",
+      "explanation": "window is the global scope object in browsers.",
       "completed": false
     },
     {
       "text": "Which function runs code repeatedly with a fixed time delay?",
       "options": ["setTimeout()", "setInterval()", "repeat()", "loop()"],
       "correctIndex": 1,
-      "Explanation": "setInterval() executes code repeatedly with delay.",
+      "explanation": "setInterval() executes code repeatedly with delay.",
       "completed": false
     },
     {
       "text": "Which keyword is used to handle errors in JavaScript?",
       "options": ["catch", "except", "error", "throw"],
       "correctIndex": 0,
-      "Explanation": "JavaScript uses try...catch for error handling.",
+      "explanation": "JavaScript uses try...catch for error handling.",
       "completed": false
     },
     {
       "text": "Which statement creates a block-scoped variable?",
       "options": ["let", "var", "const", "Both let and const"],
       "correctIndex": 3,
-      "Explanation": "let and const create block-scoped variables.",
+      "explanation": "let and const create block-scoped variables.",
       "completed": false
     },
     {
       "text": "Which keyword is used to define a class in JavaScript?",
       "options": ["class", "object", "define", "struct"],
       "correctIndex": 0,
-      "Explanation": "JavaScript uses the 'class' keyword.",
+      "explanation": "JavaScript uses the 'class' keyword.",
       "completed": false
     }
   ]

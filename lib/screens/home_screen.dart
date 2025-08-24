@@ -47,7 +47,7 @@ class HomeScreen extends StatelessWidget {
                   title: Text(quiz.title),
                   subtitle: Text(quiz.subtitle ?? ''),
                   trailing: Text(
-                    '${quiz.answeredQuestions}/${quiz.totalQuestions}',
+                    '${quiz.completedCount}/${quiz.totalQuestions}',
                     style: const TextStyle(fontSize: 16, color: Colors.grey),
                   ),
                   onTap: () {
