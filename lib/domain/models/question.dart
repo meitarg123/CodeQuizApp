@@ -3,8 +3,8 @@ class Question {
   final String text;
   final List<String> options;
   final int correctIndex; 
-  String? explanation;
-  bool completed; // true = answered correctly, false = pending
+  final String? explanation;
+  bool completed; 
 
   Question({
     required this.id,
@@ -15,19 +15,20 @@ class Question {
     this.completed = false, 
   });
 
+  /// Creates a Question from a JSON object.
   factory Question.fromJson(Map<String, dynamic> json) {
   return Question(
     id: json['id'] as String? ?? '',
     text: json['text'] as String,
     options: (json['options'] as List).cast<String>(),
-    correctIndex: json['correctIndex'] as int,
+    correctIndex: (json['correctIndex']) as int,
     explanation: json['explanation'] as String?,
-    completed: (json['completed'] as bool?) ?? false,
+    // completed: (json['completed'] as bool?) ??  - false is the default. progress is the truth result
   );
 }
 
   bool isCorrect(int answer) {
     return answer == correctIndex;
   }
-  
+
 }

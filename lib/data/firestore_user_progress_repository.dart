@@ -10,39 +10,57 @@ class FirestoreUserProgressRepository implements UserProgressRepository {
   DocumentReference<Map<String, dynamic>> _doc(String uid, String quizId) =>
       _db.collection('users').doc(uid).collection('progress').doc(quizId);
 
+  
   @override
+  // Get user progress for a specific quiz
   Future<UserProgress> getProgress(String uid, String quizId) async {
     final snap = await _doc(uid, quizId).get();
+    final data = snap.data();
     final ids = snap.exists
-        ? Set<String>.from((snap.data()?['completedQuestionIds'] ?? const <String>[]) as List)
+        ? Set<String>.from((data?['completedQuestionIds'] ?? const <String>[]) as List)
         : <String>{};
-    return UserProgress(quizId: quizId, completedQuestionIds: ids);
+    final lastIndex = (data != null && data['lastIndex'] is int)
+        ? data['lastIndex'] as int
+        : 0;
+    return UserProgress(quizId: quizId, completedQuestionIds: ids, lastIndex: lastIndex);
   }
 
   @override
+  // Stream of UserProgress that updates in real-time when Firestore changes.
   Stream<UserProgress> watchProgress(String uid, String quizId) {
     return _doc(uid, quizId).snapshots().map((snap) {
+      final data = snap.data();
       final ids = snap.exists
-          ? Set<String>.from((snap.data()?['completedQuestionIds'] ?? const <String>[]) as List)
+          ? Set<String>.from((data?['completedQuestionIds'] ?? const <String>[]) as List)
           : <String>{};
-      return UserProgress(quizId: quizId, completedQuestionIds: ids);
+      final lastIndex = (data != null && data['lastIndex'] is int)
+          ? data['lastIndex'] as int
+          : 0;
+      return UserProgress(quizId: quizId, completedQuestionIds: ids, lastIndex: lastIndex);
     });
   }
 
   @override
   Future<void> setQuestionCompleted(
-      String uid, String quizId, String questionId, bool completed) async {
+    String uid,
+    String quizId,
+    String questionKey,
+    bool completed,
+  ) async {
     final ref = _doc(uid, quizId);
-    await _db.runTransaction((tx) async {
-      final s = await tx.get(ref);
-      final current = s.exists
-          ? Set<String>.from((s.data()?['completedQuestionIds'] ?? const <String>[]) as List)
-          : <String>{};
-      completed ? current.add(questionId) : current.remove(questionId);
-      tx.set(ref, {
-        'completedQuestionIds': current.toList(),
-        'lastUpdatedAt': FieldValue.serverTimestamp(),
-      }, SetOptions(merge: true));
-    });
+    await ref.set({
+      'completedQuestionIds': completed
+          ? FieldValue.arrayUnion([questionKey])   
+          : FieldValue.arrayRemove([questionKey]), 
+      'lastUpdatedAt': FieldValue.serverTimestamp(),
+    }, SetOptions(merge: true));
+  }
+
+  @override
+  Future<void> setLastIndex(String uid, String quizId, int lastIndex) async {
+    await _doc(uid, quizId).set({
+      'lastIndex': lastIndex,
+      'lastUpdatedAt': FieldValue.serverTimestamp(),
+    }, SetOptions(merge: true));
   }
 }
